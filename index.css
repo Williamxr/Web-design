@@ -22,6 +22,7 @@ nav li{
 }
 
 nav a{
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
@@ -29,6 +30,22 @@ nav a{
     text-decoration: none;
 }
 
-.principal{
+nav a:hover {
+    color: #17006B;
+}
+
+.conteudo{
     border-top: 0.4px solid #34af67;
+    color: #ffffff;
+}
+
+.titulo-principal{
+text-align: center;
+margin-top: 32px;
+margin-bottom: 25px;
+text-transform: uppercase;
+}
+
+.imagem-wb2{
+    height: 350px;
 }
