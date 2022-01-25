@@ -47,6 +47,10 @@ text-transform: uppercase;
 font-size: 33px;
 }
 
+.itens-aprendizado{
+   display: inline;
+}
+
 .imagem-wb2{
     height: 350px;
 }
