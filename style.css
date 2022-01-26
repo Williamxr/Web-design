@@ -40,19 +40,53 @@ nav a:hover {
 }
 
 .titulo-principal{
-text-align: center;
+text-align: left;
 margin-top: 32px;
-margin-bottom: 25px;
+margin-bottom: 62px;
 text-transform: uppercase;
 font-size: 33px;
 }
 
 .lista-aprendizado{
    display: inline-block;
-   text-align: left;
+   align-items: center;
+}
+
+.aprendizado{
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: "Sarala", sans-serif;
 }
 
 .imagem-wb2{
-    height: 350px;
-    display: inline-block;
+    width: 700px;
+    float: right;
+    align-items: center;
+    margin-right: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px;
+}
+
+.trabalho-texto{
+    text-align: center;
+    margin: 32px 0;
+    font-size: 20px;
+}
+
+.botao{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+    margin: 18px 0;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(231, 200, 139) ;
+    box-shadow: 6px 7px 6px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.botao:hover{
+    background: #D49B0B;
+	transform: scale(1.2);
 }
