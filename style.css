@@ -71,6 +71,7 @@ font-size: 33px;
     text-align: center;
     margin: 32px 0;
     font-size: 20px;
+    padding-top: 20px;
 }
 
 .botao{
@@ -89,4 +90,23 @@ font-size: 33px;
 .botao:hover{
     background: #D49B0B;
 	transform: scale(1.2);
+}
+
+.foto-rodape{
+    border-top: 0.4px solid #34af67;
+    width: 280px;
+    margin-left: 760px;
+    padding: 32px;
+}
+
+.rodape{
+    padding: 32px;
+}
+
+.copyright{
+    margin-left: 750px;
+    margin-top: 20px;
+    font-family: "Sarala", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
 }
